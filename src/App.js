@@ -2,7 +2,7 @@ import React from 'react';
 import { Header } from './components/layout/Header'
 import { Content } from './components/layout/Content'
 
-export const App = () => (
+const App = () => (
     <div className="App">
       <header className="App-header">
         <Header />
@@ -11,3 +11,4 @@ export const App = () => (
     </div>
   );
 
+export default App;
