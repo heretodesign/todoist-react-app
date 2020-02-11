@@ -1,5 +1,6 @@
 import React from 'react'
 import { Sidebar } from './Sidebar'
+import { Tasks } from '../Tasks'
 
 export const Content = () => {
 
@@ -8,6 +9,7 @@ export const Content = () => {
     return (
         <section className="content" data-testid="content">
            <Sidebar />
+           <Tasks />
         </section>
     )
 }
